@@ -15,7 +15,7 @@ export default class CounterClass extends Component {
         <button onClick={() => this.setState(
             // { counter:this.state.counter +1 }
             prevState => ({ counter: prevState.counter + 1})
-            )}>Increment +1 </button>
+            )}>Increment (+1) </button>
       </div>
     );
 }
