@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import CounterClass from './CounterClass';
-import HookCounter from './CounterHook';
+import CounterHookLifecycle from './CounterHookLifecycle';
+import CounterClassLifecycle from './CounterClassLifecycle';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CounterClass />
-        <HookCounter />
+        <CounterClassLifecycle />
+        <CounterHookLifecycle />
       </header>
     </div>
   );
